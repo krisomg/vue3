@@ -1,0 +1,16 @@
+body,
+html,
+#app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+//改变路由进度条的颜色
+#nprogress .bar {
+  background: pink !important; //自定义颜色
+}
